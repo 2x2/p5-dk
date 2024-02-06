@@ -1,6 +1,4 @@
-#ifdef GL_ES
-precision mediump float;
-#endif
+precision highp float;
     varying vec2 vUv;
     uniform float time;
     uniform float scale;
