@@ -26,7 +26,7 @@ precision highp float;
       
       vec2 aR = vec2(resolution.x/resolution.y, 1.);
       //vec2 st = vUv * aR * scale;
-      //vec2 st = aR * scale;
+      vec2 st = aR * scale;
       float S = sin(time * .005);
       float C = cos(time * .005);
       vec2 v1 = vec2(cheapNoise(vec3(st, 2.)), cheapNoise(vec3(st, 1.)));
